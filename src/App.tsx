@@ -67,11 +67,11 @@ export default function App() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="relative w-64 h-96 mx-auto">
+              <div className="relative w-96 h-100 mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-aafiyah-sage to-aafiyah-rose rounded-3xl shadow-2xl transform rotate-3"></div>
                 <div className="relative w-full h-full bg-white rounded-3xl shadow-xl overflow-hidden border-8 border-gray-100">
-                  <ImageWithFallback 
-                    src="/images/1st page.png"
+                  <img
+                    src="/Aafiyah---health-care-/images/hero.png"
                     alt="Aafiyah mobile app mockup"
                     className="w-full h-full object-cover"
                   />
@@ -815,9 +815,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="w-64 h-96 bg-white rounded-3xl shadow-2xl overflow-hidden border-8 border-gray-100 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-64 h-full bg-white rounded-3xl shadow-2xl overflow-hidden border-8 border-gray-100 transform hover:scale-105 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/Dashboard.png"
+                  src= "/Aafiyah---health-care-/images/Dashboard.png"    
                   alt="Home Dashboard"
                   className="w-full h-full object-cover"
                 />
@@ -834,9 +834,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <div className="w-48 h-72 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-12 hover:rotate-6 hover:scale-110 transition-transform duration-300">
+              <div className="w-48 h-63 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-12 hover:rotate-6 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/AI Agent"
+                  src="/Aafiyah---health-care-/images/ai_agent.png"
                   alt="AI Chatbot Interface"
                   className="w-full h-full object-cover"
                 />
@@ -851,9 +851,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <div className="w-44 h-64 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-12 hover:-rotate-3 hover:scale-110 transition-transform duration-300">
+              <div className="w-44 h-70 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-12 hover:-rotate-3 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/Symptom Tracker.png"
+                  src="/Aafiyah---health-care-/images/Sympthom Tracker.png"
                   alt="Symptom Tracker"
                   className="w-full h-full object-cover"
                 />
@@ -868,9 +868,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              <div className="w-40 h-60 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-6 hover:-rotate-6 hover:scale-110 transition-transform duration-300">
+              <div className="w-40 h-63 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-6 hover:-rotate-6 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/Nutrition.png"
+                  src="/Aafiyah---health-care-/images/Nutrition.png"
                   alt="Wellness Hub"
                   className="w-full h-full object-cover"
                 />
@@ -885,9 +885,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.0 }}
             >
-              <div className="w-42 h-62 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-8 hover:rotate-3 hover:scale-110 transition-transform duration-300">
+              <div className="w-42 h-63 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-8 hover:rotate-3 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/uploas scan.png"
+                  src="/Aafiyah---health-care-/images/upload scan.png"
                   alt="Medical Analysis"
                   className="w-full h-full object-cover"
                 />
@@ -902,9 +902,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.2 }}
             >
-              <div className="w-36 h-56 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-15 hover:rotate-6 hover:scale-110 transition-transform duration-300">
+              <div className="w-36 h-72 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform rotate-15 hover:rotate-6 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="/images/Community.png"
+                  src="/Aafiyah---health-care-/images/Community.png"
                   alt="Community"
                   className="w-full h-full object-cover"
                 />
@@ -919,9 +919,9 @@ export default function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.4 }}
             >
-              <div className="w-36 h-56 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-15 hover:-rotate-6 hover:scale-110 transition-transform duration-300">
+              <div className="w-36 h-50 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-gray-100 transform -rotate-15 hover:-rotate-6 hover:scale-110 transition-transform duration-300">
                 <ImageWithFallback 
-                  src="Exercise.png"
+                  src="/Aafiyah---health-care-/images/Excersices.png"
                   alt="Analytics"
                   className="w-full h-full object-cover"
                 />
@@ -1235,7 +1235,7 @@ export default function App() {
             </div>
             <span className="text-white font-semibold">Aafiyah</span>
           </div>
-          <p className="text-gray-400">© 2024 Aafiyah. Empowering women's health with privacy and care.</p>
+          <p className="text-gray-400">© 2025 Aafiyah. Empowering women's health with privacy and care.</p>
         </div>
       </footer>
     </div>
